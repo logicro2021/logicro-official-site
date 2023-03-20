@@ -53,7 +53,7 @@ export const projects = [
     title: "Upakar Nursing Home",
     desc: "Static stite + Managment system for Upakar Nursing Home",
     url: "https://upakarnh.vercel.app/",
-    image: "/Upokar.png",
+    image: "/upokar.png",
   },
   {
     title: "Rural Care Fund",

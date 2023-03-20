@@ -29,7 +29,7 @@ const Navbar = ({ bgfill }) => {
         <div className="container">
           <div className="flex-1 w-20 h-full items-center ">
             {/* <a className="btn btn-ghost upper-case text-3xl">Promoter</a> */}
-            <Image src={Alldata?.logo} height={80} width={80} alt="LOGO" />
+            <Image src={Alldata?.logo} height={75} width={75} alt="LOGO" />
           </div>
 
           <div className="flex-none lg:block md:block hidden">
@@ -43,9 +43,6 @@ const Navbar = ({ bgfill }) => {
               </li>
               <li>
                 <Link href="/service">Services</Link>
-              </li>
-              <li>
-                <Link href="/projects">Gallery</Link>
               </li>
               <li>
                 <Link href="/about">About</Link>
@@ -91,13 +88,10 @@ const Navbar = ({ bgfill }) => {
             </li>
 
             <li>
-              <Link href="/pricing">Our Pricing</Link>
+              <Link href="/project">Projects</Link>
             </li>
             <li>
               <Link href="/service">Services</Link>
-            </li>
-            <li>
-              <Link href="/gallery">Gallery</Link>
             </li>
             <li>
               <Link href="/about">About</Link>
