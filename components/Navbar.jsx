@@ -45,9 +45,6 @@ const Navbar = ({ bgfill }) => {
                 <Link href="/service">Services</Link>
               </li>
               <li>
-                <Link href="/projects">Gallery</Link>
-              </li>
-              <li>
                 <Link href="/about">About</Link>
               </li>
               <li>
@@ -95,9 +92,6 @@ const Navbar = ({ bgfill }) => {
             </li>
             <li>
               <Link href="/service">Services</Link>
-            </li>
-            <li>
-              <Link href="/projects">Gallery</Link>
             </li>
             <li>
               <Link href="/about">About</Link>
